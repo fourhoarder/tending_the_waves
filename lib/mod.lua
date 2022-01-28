@@ -50,12 +50,22 @@ mod.hook.register("script_pre_init","my init hacks",function()
     "aporee",
     "KEXP 90.3FM",
     "WXYC 89.3FM",
+    "GD Barton Hall Minglewood Blues",
+    "GD Barton Hall Loser",
+    "GD Barton Hall El Paso",
+    "GD Barton Hall They Love Each Other",
+    "GD Barton Hall Jack Straw",
   }
   local stations={
     "off",
     "http://radio.aporee.org:8000/aporee_high.m3u",
     "http://live-mp3-128.kexp.org/kexp128.mp3.m3u",
     "http://audio-mp3.ibiblio.org:8000/wxyc.mp3",
+    "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d1t01.mp3",
+    "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d1t02.mp3",
+    "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d1t03.mp3",
+    "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d1t04.mp3",
+    "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d1t05.mp3",
   }
   params:add_option("radiostation","RADIO",names,1)
   params:set_action("radiostation",function(x)
