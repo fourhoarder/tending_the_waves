@@ -96,7 +96,6 @@ mod.hook.register("script_pre_init","my init hacks",function()
     "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d3t05.mp3",
     "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d3t06.mp3",
     "http://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08eaton-d3t07.mp3",
- 
   }
   params:add_option("radiostation","RADIO",names,1)
   params:set_action("radiostation",function(x)
